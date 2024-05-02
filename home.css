@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+    background-color:#E4C59E;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color:#9a653c;
+    justify-content:flex-end;
+    padding-right:10px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color:#9a653c;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a:hover{
+    background-color:#803D3B
+}
+
+.navbar a {
+    color:#322C2B;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar li {
+    float: left;
+}
+
+.pictureintro {
+    display: flex;
+    justify-content: center;
+    margin: 45px;
+}
+
+.content h1 {
+    display: flex;
+    justify-content: center;
+    color: #322C2B;
+}
+
+.Storybeforecoding, .Storyaftercoding, .Hopeaboutcoding {
+    display: flex;
+    align-items: center;
+}
+
+.Storybeforecoding img {
+    margin: 10%;
+}
+
+.Storybeforecoding p {
+    margin-left: 10%;
+    color: #322C2B;
+    font-size: 30px;
+}
+
+.Storyaftercoding img {
+    margin: 20%;
+}
+
+.Storyaftercoding p {
+    margin: 10%;
+    color: #322C2B;
+    font-size: 30px;
+}
+
+.Hopeaboutcoding img {
+    margin: 10%;
+}
+
+.Hopeaboutcoding p {
+    margin: 10%;
+    color: #322C2B;
+    font-size: 30px;
+}
+
+.Storybeforecoding img {
+    max-width:600px;
+    height: 400px;;
+}
+
+.Storyaftercoding img {
+    max-width: 600px;
+    height:400px;
+}
+
