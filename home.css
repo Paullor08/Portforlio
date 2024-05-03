@@ -8,7 +8,10 @@ body{
     align-items: center;
     background-color:#9a653c;
     justify-content:flex-end;
-    padding-right:10px;
+    position:fixed;
+    right: 0%;
+    left: 0%;
+    top: 0%;
 }
 
 .navbar ul{
@@ -40,7 +43,8 @@ body{
 .pictureintro {
     display: flex;
     justify-content: center;
-    margin: 45px;
+    margin-top:10%;
+    
 }
 
 .content h1 {
