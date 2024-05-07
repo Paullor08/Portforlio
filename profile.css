@@ -8,6 +8,10 @@ body {
     background-color:#9a653c;
     justify-content:flex-end;
     padding-right:10px;
+    position: fixed;
+    right: 0%;
+    left: 0%;
+    top: 0%;
 }
 
 .navbar ul{
@@ -34,5 +38,11 @@ body {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
+}
+
+.container_picture1 {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
 }
 
